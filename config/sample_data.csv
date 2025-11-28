@@ -1,0 +1,41 @@
+id,product,category,price,quantity,region,date,customer_id,sales_rep
+1,Laptop,Electronics,999.99,50,North,2024-01-15,C001,SR001
+2,Smartphone,Electronics,699.99,150,South,2024-01-16,C002,SR002
+3,Tablet,Electronics,449.99,75,East,2024-01-17,C003,SR003
+4,Headphones,Electronics,149.99,200,West,2024-01-18,C004,SR001
+5,Monitor,Electronics,299.99,80,North,2024-01-19,C005,SR002
+6,Keyboard,Accessories,79.99,300,South,2024-01-20,C006,SR003
+7,Mouse,Accessories,39.99,500,East,2024-01-21,C007,SR001
+8,Webcam,Accessories,89.99,120,West,2024-01-22,C008,SR002
+9,USB Hub,Accessories,29.99,250,North,2024-01-23,C009,SR003
+10,Desk Lamp,Office,49.99,180,South,2024-01-24,C010,SR001
+11,Chair,Office,199.99,60,East,2024-01-25,C001,SR002
+12,Desk,Office,349.99,40,West,2024-01-26,C002,SR003
+13,Printer,Electronics,249.99,90,North,2024-01-27,C003,SR001
+14,Scanner,Electronics,179.99,55,South,2024-01-28,C004,SR002
+15,External SSD,Electronics,129.99,170,East,2024-01-29,C005,SR003
+16,Monitor Stand,Accessories,59.99,220,West,2024-01-30,C006,SR001
+17,Cable Organizer,Accessories,19.99,400,North,2024-01-31,C007,SR002
+18,Mousepad,Accessories,24.99,350,South,2024-02-01,C008,SR003
+19,Notebook,Office,9.99,600,East,2024-02-02,C009,SR001
+20,Pen Set,Office,14.99,450,West,2024-02-03,C010,SR002
+21,Laptop,Electronics,1099.99,45,North,2024-02-04,C001,SR003
+22,Smartphone,Electronics,799.99,130,South,2024-02-05,C002,SR001
+23,Tablet,Electronics,549.99,65,East,2024-02-06,C003,SR002
+24,Headphones,Electronics,199.99,180,West,2024-02-07,C004,SR003
+25,Monitor,Electronics,399.99,70,North,2024-02-08,C005,SR001
+26,Keyboard,Accessories,99.99,280,South,2024-02-09,C006,SR002
+27,Mouse,Accessories,49.99,480,East,2024-02-10,C007,SR003
+28,Webcam,Accessories,109.99,110,West,2024-02-11,C008,SR001
+29,USB Hub,Accessories,39.99,230,North,2024-02-12,C009,SR002
+30,Desk Lamp,Office,59.99,160,South,2024-02-13,C010,SR003
+31,Chair,Office,249.99,55,East,2024-02-14,C001,SR001
+32,Desk,Office,399.99,35,West,2024-02-15,C002,SR002
+33,Printer,Electronics,299.99,85,North,2024-02-16,C003,SR003
+34,Scanner,Electronics,199.99,50,South,2024-02-17,C004,SR001
+35,External SSD,Electronics,149.99,160,East,2024-02-18,C005,SR002
+36,Monitor Stand,Accessories,69.99,200,West,2024-02-19,C006,SR003
+37,Cable Organizer,Accessories,24.99,380,North,2024-02-20,C007,SR001
+38,Mousepad,Accessories,29.99,320,South,2024-02-21,C008,SR002
+39,Notebook,Office,12.99,550,East,2024-02-22,C009,SR003
+40,Pen Set,Office,19.99,420,West,2024-02-23,C010,SR001

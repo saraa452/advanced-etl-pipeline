@@ -1,0 +1,9 @@
+# Output directory for processed data
+# This directory is created by the ETL pipeline
+
+The following files are generated when running the ETL pipeline:
+- processed_data.csv: Main processed data
+- category_summary.csv: Aggregation by category
+- region_summary.csv: Aggregation by region
+- etl_database.db: SQLite database with all tables
+- etl_report_*.csv: Summary reports
