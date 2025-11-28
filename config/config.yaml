@@ -1,0 +1,31 @@
+# ETL Pipeline Configuration
+
+# Database settings
+database:
+  host: localhost
+  port: 5432
+  name: etl_db
+  user: etl_user
+  # Use environment variable for password: ETL_DB_PASSWORD
+
+# API settings
+api:
+  base_url: https://api.example.com
+  timeout: 30
+  headers:
+    Content-Type: application/json
+
+# Output settings
+output:
+  directory: ./output
+  format: csv
+
+# Logging settings
+logging:
+  level: INFO
+  file: ./logs/etl_pipeline.log
+
+# Pipeline settings
+pipeline:
+  name: default_pipeline
+  batch_size: 1000
