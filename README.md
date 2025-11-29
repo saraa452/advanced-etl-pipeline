@@ -1,5 +1,8 @@
 # Advanced ETL Pipeline
 
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
+
 Um pipeline ETL avançado e modular para processamento de dados.
 
 ## 🚀 Funcionalidades
