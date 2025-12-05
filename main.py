@@ -1,8 +1,8 @@
-"""
+﻿"""
 Main ETL Pipeline Orchestrator
 
-Coordena o fluxo de dados através das etapas:
-Extract → Transform → Load
+Coordina o fluxo de dados através das etapas:
+Extract  Transform  Load  Visualize
 """
 
 import logging
@@ -10,6 +10,7 @@ from pathlib import Path
 from extract.extractor import DataExtractor
 from transform.transformer import DataTransformer
 from load.loader import DataLoader
+from visualize import DataVisualizer
 from config.settings import load_config
 
 # Configurar logging
@@ -44,6 +45,14 @@ def run_etl_pipeline():
         loader = DataLoader(config)
         loader.load(transformed_data)
         logger.info("Dados carregados com sucesso")
+        
+        # Etapa 4: Visualização
+        logger.info("Iniciando geração de visualizações...")
+        visualizer = DataVisualizer(
+            output_path=config.get('load', {}).get('destination_path', './output')
+        )
+        visualizer.generate_report(transformed_data)
+        logger.info("Visualizações geradas com sucesso")
         
         logger.info("Pipeline ETL finalizado com sucesso!")
         return True
